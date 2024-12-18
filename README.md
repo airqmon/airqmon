@@ -38,15 +38,15 @@ There are a few options available to customize on the preferences window that yo
 
 ## Airqmon API
 
-From version 2, Airqmon uses the [Airmon API][airqmon-api], a supplementary service, to find the nearest station and fetch measurements.
+Starting from version 2, Airqmon depends on the [Airqmon API][airqmon-api] to find the nearest station and fetch measurements from Airly.
 
 ## Geolocation
 
-From version 2.1.1, Airqmon uses the free ip-api.com for geolocation. If you want to switch back to the Google Geolocation API, revert the relevant changes from the [1fe51d](https://github.com/jsynowiec/airqmon/commit/1fe51d966f15caeeca1e6385d01b96c6e266210c) commit.
+With version 2.1.1, Airqmon switched to the free ip-api.com reverse geolocation service. If you want to switch back to the Google Geolocation API, revert the changes from the [1fe51d](https://github.com/jsynowiec/airqmon/commit/1fe51d966f15caeeca1e6385d01b96c6e266210c) commit.
 
 ## Privacy
 
-Airqmon application does not track any personally identifiable information or usage analytics.
+Airqmon does not track any data.
 
 ### Credits
 
